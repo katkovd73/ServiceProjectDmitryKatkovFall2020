@@ -1,0 +1,15 @@
+﻿.returnButton {
+    background: #2ea2bf;
+    width: 200px;
+}
+
+.menuButton {
+    background: #2ea2bf;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.reportName {
+    color: navy;
+    font-weight: bold;
+}

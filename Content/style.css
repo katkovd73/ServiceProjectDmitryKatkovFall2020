@@ -1,0 +1,114 @@
+﻿.jumbotron {
+    border: solid;
+    border-width: 1px;
+    border-color: lightblue;
+    margin-top: 20px;
+    padding-top: 2em;
+    max-height: 120px;
+}
+
+main{
+    text-align: center;
+    padding: 40px;
+    border: solid;
+    border-width: 1px;
+    border-color: lightblue;
+}
+
+.lblTime{
+    text-align: center;
+    font-size: small;
+    color: darkblue;
+}
+
+.mainHeaderText {
+    color:midnightblue;
+    text-align:center;
+    padding: 1px 10px 10px 10px;
+}
+
+.pageTitle {
+    padding: 1px 1px 20px 1px;
+    color:darkblue;
+    font-size: 30px;
+}
+
+.lblErrorMessage {
+    color: red;
+    font-size:small;
+    margin-top: 20em;
+}
+
+.menuButton {
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #60a3bc;
+    padding: 20px;
+    border-radius: 50px;
+    display: inline-block;
+    border: none;
+    transition: all 0.4s ease 0s;
+    width: 250px;
+}
+
+.returnButton {
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #60a3bc;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    border: none;
+    transition: all 0.4s ease 0s;
+    width: 250px;
+}
+
+.smallButton {
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #60a3bc;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    border: none;
+    transition: all 0.4s ease 0s;
+    width: 100px;
+}
+
+.smallButtonDiv {
+    margin: 5px;
+}
+
+.labelFormated {
+    color: darkblue;
+}
+
+.lblRequiredInformation {
+    color: red;
+    font-size: 14px;
+    text-align: left;
+}
+
+.myTable, td {
+    width: 500px;
+    table-layout:initial;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: separate;
+    border-spacing: 0 15px;    
+}
+
+.lblValidation {
+    font-size: 13px;
+    text-align: left;
+    margin: 1px 1px 1px 10px;
+}
+
+.technicianButton {
+    text-align:center;
+}
+

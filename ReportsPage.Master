@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="ReportsPage.master.cs" Inherits="ServiceProjectDmitryKatkovFall2020.ReportsPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Reports</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="Content/style.css" />
+    <script src="Scripts/jquery-3.0.0.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="container">
+            <header>
+                <div class="jumbotron jumbotron-fluid">
+                    <h1 class="mainHeaderText">Service Center</h1>
+                    <div class="lblTime">
+                        <asp:Label ID="lblTime" runat="server" Text="Time"></asp:Label>
+                    </div>
+                </div>
+                
+            </header>
+            <main>
+                <h3 class="pageTitle">Reports</h3> 
+                <div>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </main>
+        </div>
+    </form>
+</body>
+</html>
